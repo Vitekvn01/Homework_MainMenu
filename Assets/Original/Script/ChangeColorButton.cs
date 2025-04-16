@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-
+[RequireComponent(typeof(Button), typeof(Image))]
 public class ChangeColorButton : MonoBehaviour
 {
     [SerializeField] private Color _newColor;
